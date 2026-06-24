@@ -1,0 +1,46 @@
+name: ✨ Évolution
+description: Proposer une nouvelle fonctionnalité ou une amélioration
+title: "[Évolution] "
+labels: ["évolution"]
+body:
+  - type: dropdown
+    id: service
+    attributes:
+      label: Service concerné
+      options:
+        - GEMMSA
+        - GEMMANAGER
+        - GEMCALC
+        - GEMENTREPRISES
+        - GEMUTILISATEURS
+        - GEMDOCS
+        - GEMLEARNING
+        - Infra / CI
+    validations:
+      required: true
+  - type: textarea
+    id: besoin
+    attributes:
+      label: Besoin / problème à résoudre
+      description: Quel est le besoin métier ou technique derrière cette évolution ?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution proposée
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives envisagées
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priorité
+      options:
+        - P0-critique
+        - P1-haute
+        - P2-normale
+        - P3-basse
+    validations:
+      required: true

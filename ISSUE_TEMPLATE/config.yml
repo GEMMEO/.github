@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📚 Documentation GEMMEO (GEMDOCS)
+    url: https://github.com/GEMMEO
+    about: Consulter la documentation des services avant d'ouvrir un ticket.

@@ -1,0 +1,43 @@
+name: 🧭 Epic
+description: Regrouper un ensemble de tâches autour d'un grand chantier
+title: "[Epic] "
+labels: ["epic"]
+body:
+  - type: dropdown
+    id: service
+    attributes:
+      label: Service concerné
+      options:
+        - GEMMSA
+        - GEMMANAGER
+        - GEMCALC
+        - GEMENTREPRISES
+        - GEMUTILISATEURS
+        - GEMDOCS
+        - GEMLEARNING
+        - Infra / CI
+    validations:
+      required: true
+  - type: textarea
+    id: objectif
+    attributes:
+      label: Objectif de l'epic
+      description: Quel résultat global cet epic doit-il atteindre ?
+    validations:
+      required: true
+  - type: textarea
+    id: taches
+    attributes:
+      label: Sous-tâches
+      description: GitHub suit automatiquement l'avancement des cases cochées.
+      value: |
+        - [ ]
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version cible
+      placeholder: "MVP, Beta, V1, V2…"
