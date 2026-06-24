@@ -42,12 +42,6 @@ technique unifiée.
     utilisateurs, clients, rôles et droits (RBAC), accès aux services.
     Fournit l'<b>authentification commune</b> aux autres applications.</td>
   </tr>
-  <tr>
-    <td width="64" align="center"><img src="assets/gemclient_ico.png" width="48" /></td>
-    <td><b>GEMCLIENT</b> <i>(GEMUTILISATEURS)</i><br/>
-    Alimentation de la <b>base utilisateurs</b> d'un client GEMMEO directement
-    dans GEMMANAGER, sans saisie manuelle.</td>
-  </tr>
 </table>
 
 ## APIs
@@ -59,6 +53,12 @@ technique unifiée.
     <b>API d'alimentation des entreprises</b> : crée et enrichit
     automatiquement les fiches entreprises dans GEMMEO au lieu d'une saisie
     manuelle.</td>
+  </tr>
+    <tr>
+    <td width="64" align="center"><img src="assets/gemclient_ico.png" width="48" /></td>
+    <td><b>GEMUTILISATEURS</b><br/>
+    Alimentation de la <b>base utilisateurs</b> d'un client GEMMEO directement
+    dans GEMMANAGER, sans saisie manuelle.</td>
   </tr>
 </table>
 
