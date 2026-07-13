@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/gem_ico.png" alt="GEMMEO" width="110" />
+<img src="assets/gem_ico.png" alt="GEMMEO" width="150" />
 
 # GEMMEO
 
@@ -18,14 +18,14 @@ technique unifiée.
 
 <table>
   <tr>
-    <td width="64" align="center"><img src="assets/gemmsa_ico.png" width="48" /></td>
+    <td width="96" align="center"><img src="assets/gemmsa_ico.png" width="72" /></td>
     <td><b>GEMMSA</b><br/>
     Simulation et calcul des <b>cotisations sociales agricoles (MSA)</b> :
     assiettes, abattements et cotisations par activité (viticulture, élevage,
     maraîchage / arboriculture, bois / ETA…), ATEXA, FMSE, VIVEA.</td>
   </tr>
   <tr>
-    <td width="64" align="center"><img src="assets/gemcalc_ico.png" width="48" /></td>
+    <td width="96" align="center"><img src="assets/gemcalc_ico.png" width="72" /></td>
     <td><b>GEMCALC</b><br/>
     Moteur d'<b>hypothèses et de simulations financières</b> : projections et
     scénarios autour des <b>prêts</b> et du financement.</td>
@@ -36,7 +36,7 @@ technique unifiée.
 
 <table>
   <tr>
-    <td width="64" align="center"><img src="assets/gemmanager_ico.png" width="48" /></td>
+    <td width="96" align="center"><img src="assets/gemmanager_ico.png" width="72" /></td>
     <td><b>GEMMANAGER</b><br/>
     Plateforme <b>centrale d'administration</b> de l'écosystème : licences,
     utilisateurs, clients, rôles et droits (RBAC), accès aux services.
@@ -44,18 +44,31 @@ technique unifiée.
   </tr>
 </table>
 
+## Support
+
+<table>
+  <tr>
+    <td width="96" align="center"><img src="assets/gemsupport_ico.png" width="72" /></td>
+    <td><b>GEMSUPPORT</b><br/>
+    Outil interne de <b>support client</b> : ingestion automatique des
+    emails Gmail en tickets, classement par produit, SLA en heures
+    ouvrées, RBAC par équipe/agent, statistiques et export PPTX pour le
+    comité de pilotage.</td>
+  </tr>
+</table>
+
 ## APIs
 
 <table>
   <tr>
-    <td width="64" align="center"><img src="assets/gementreprises_ico.png" width="48" /></td>
+    <td width="96" align="center"><img src="assets/gementreprises_ico.png" width="72" /></td>
     <td><b>GEMENTREPRISES</b><br/>
     <b>API d'alimentation des entreprises</b> : crée et enrichit
     automatiquement les fiches entreprises dans GEMMEO au lieu d'une saisie
     manuelle.</td>
   </tr>
     <tr>
-    <td width="64" align="center"><img src="assets/gemclient_ico.png" width="48" /></td>
+    <td width="96" align="center"><img src="assets/gemclient_ico.png" width="72" /></td>
     <td><b>GEMUTILISATEURS</b><br/>
     Alimentation de la <b>base utilisateurs</b> d'un client GEMMEO directement
     dans GEMMANAGER, sans saisie manuelle.</td>
@@ -66,13 +79,13 @@ technique unifiée.
 
 <table>
   <tr>
-    <td width="64" align="center"><img src="assets/gemdocs_ico.png" width="48" /></td>
+    <td width="96" align="center"><img src="assets/gemdocs_ico.png" width="72" /></td>
     <td><b>GEMDOCS</b><br/>
     <b>Documentation</b> de l'ensemble des APIs et services de l'écosystème
     GEMMEO.</td>
   </tr>
   <tr>
-    <td width="64" align="center"><img src="assets/gemlearning_ico.png" width="48" /></td>
+    <td width="96" align="center"><img src="assets/gemlearning_ico.png" width="72" /></td>
     <td><b>GEMLEARNING</b><br/>
     Plateforme d'<b>e-learning</b> pour tous les services GEMMEO : tutoriels
     vidéo, guides et accompagnement.</td>
