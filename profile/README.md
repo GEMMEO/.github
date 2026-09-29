@@ -57,6 +57,31 @@ technique unifiée.
   </tr>
 </table>
 
+## Exploitation & infrastructure
+
+<table>
+  <tr>
+    <td width="96" align="center"><img src="assets/gemstatut_ico.png" width="72" /></td>
+    <td><b>GEMSTATUT</b><br/>
+    <b>Page de statut</b> publique des services GEMMEO et supervision
+    (disponibilité, certificats, sauvegardes), avec des alertes mail au
+    format commun de l'écosystème.</td>
+  </tr>
+  <tr>
+    <td width="96" align="center"><img src="assets/gembdd_ico.png" width="72" /></td>
+    <td><b>GEMBDD</b><br/>
+    <b>Administration web des bases de données</b> de l'écosystème, depuis
+    un point d'accès unique réservé à l'équipe technique.</td>
+  </tr>
+  <tr>
+    <td width="96" align="center"><img src="assets/gemops_ico.png" width="72" /></td>
+    <td><b>GEMOPS</b><br/>
+    <b>Exploitation</b> de l'écosystème : sauvegardes chiffrées et testées
+    (outil <b>gembackup</b>), sécurité, maintenance et reprise après
+    sinistre.</td>
+  </tr>
+</table>
+
 ## APIs
 
 <table>
