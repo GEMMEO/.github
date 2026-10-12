@@ -124,14 +124,15 @@ technique unifiée.
 Tous les nouveaux développements GEMMEO partagent la même architecture, afin
 qu'un développeur puisse passer d'un produit à l'autre sans réapprentissage.
 
-| Couche        | Technologies                          |
-|---------------|---------------------------------------|
-| Frontend      | Vue 3 · TypeScript · Vite · Pinia     |
-| Backend / API | Node.js · Hono                        |
-| Base de données | MySQL                               |
-| Conteneurs    | Docker                                |
-| CI/CD         | GitHub Actions                        |
-| Existant      | WebDev / WLangage (en cours de migration) |
+| Couche          | Technologies                                        |
+|-----------------|-----------------------------------------------------|
+| Frontend        | Vue 3 · TypeScript · Vite · Pinia · Vue Router      |
+| Backend / API   | Node.js 24 · NestJS · TypeScript · Drizzle ORM      |
+| Base de données | MySQL 8.4                                           |
+| Tests           | Vitest                                              |
+| Conteneurs      | Docker                                              |
+| CI/CD           | GitHub Actions (tests, analyse de sécurité, déploiement automatique) |
+| Existant        | WebDev / WLangage (en cours de migration)           |
 
 ---
 
