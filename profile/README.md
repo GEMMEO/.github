@@ -130,7 +130,7 @@ qu'un développeur puisse passer d'un produit à l'autre sans réapprentissage.
 | Backend / API   | Node.js 24 · NestJS · TypeScript · Drizzle ORM      |
 | Base de données | MySQL 8.4                                           |
 | Tests           | Vitest                                              |
-| Conteneurs      | Docker                                              |
+| Hébergement     | Docker · Coolify + Traefik · VPS OVH                |
 | CI/CD           | GitHub Actions (tests, analyse de sécurité, déploiement automatique) |
 | Existant        | WebDev / WLangage (en cours de migration)           |
 
