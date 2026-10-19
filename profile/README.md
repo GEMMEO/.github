@@ -127,10 +127,10 @@ qu'un développeur puisse passer d'un produit à l'autre sans réapprentissage.
 | Couche          | Technologies                                        |
 |-----------------|-----------------------------------------------------|
 | Frontend        | Vue 3 · TypeScript · Vite · Pinia · Vue Router      |
-| Backend / API   | Node.js 24 · NestJS · TypeScript · Drizzle ORM      |
+| Backend / API   | Node.js 24 · NestJS (Fastify) · TypeScript · Zod · Drizzle ORM |
 | Base de données | MySQL 8.4                                           |
 | Tests           | Vitest                                              |
-| Hébergement     | Docker · Coolify + Traefik · VPS OVH                |
+| Hébergement     | Docker (images épinglées par empreinte) · Coolify + Traefik · VPS OVH |
 | CI/CD           | GitHub Actions (tests, analyse de sécurité, déploiement automatique) |
 | Existant        | WebDev / WLangage (en cours de migration)           |
 
